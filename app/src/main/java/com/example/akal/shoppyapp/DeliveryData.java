@@ -5,7 +5,7 @@ package com.example.akal.shoppyapp;
  */
 
 public class DeliveryData {
-    private String Street, City, State, Postal, Country;
+    private String Username, Email, Street, City, State, Postal, Country;
 
     public String getCountry() {
         return Country;
@@ -15,11 +15,31 @@ public class DeliveryData {
         Country = country;
     }
 
-    public DeliveryData(String street, String city, String state, String postal) {
+    public String getUsername() {
+        return Username;
+    }
+
+    public void setUsername(String username) {
+        Username = username;
+    }
+
+    public DeliveryData(String username, String email, String street, String city, String state, String postal, String country) {
+        Username = username;
+
+        Email = email;
         Street = street;
         City = city;
         State = state;
         Postal = postal;
+        Country = country;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
     }
 
     public String getStreet() {
@@ -61,6 +81,8 @@ public class DeliveryData {
                 ", State='" + State + '\'' +
                 ", Postal='" + Postal + '\'' +
                 ", Country='" + Country + '\'' +
+                ", Email='" + Email + '\'' +
+                ", Username='" + Username + '\'' +
                 '}';
     }
 }

@@ -21,6 +21,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.DrawerBuilder;
+import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import java.util.ArrayList;
 
@@ -83,6 +87,42 @@ public class MainAppPage extends AppCompatActivity {
                 Intent productIntent = new Intent(MainAppPage.this, IndividualProduct.class);
                 productIntent.putExtra("product", shoppingItems.get(i));
                 startActivity(productIntent);
+            }
+        });
+
+        //drawer items
+        PrimaryDrawerItem shop = new PrimaryDrawerItem().withIdentifier(0).withName("Shop").withIcon(R.mipmap.ic_launcher);
+        final PrimaryDrawerItem about_us = new PrimaryDrawerItem().withIdentifier(1).withName("About Us");
+        PrimaryDrawerItem contact_us = new PrimaryDrawerItem().withIdentifier(2).withName("Contact us");
+
+
+        final Drawer drawer = new DrawerBuilder().
+                withActivity(this).
+                addDrawerItems(shop, about_us, contact_us).
+                withDrawerWidthDp(250).
+                withActionBarDrawerToggle(true).
+                withToolbar(toolbar).
+                build();
+
+
+        drawer.setOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+            @Override
+            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                if (drawerItem.getIdentifier() == 0) {
+                    Intent intent = new Intent(MainAppPage.this, MainAppPage.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                } else if (drawerItem.getIdentifier() == 1) {
+                    Intent intent = new Intent(MainAppPage.this, PaymentPreview.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                } else if (drawerItem.getIdentifier() == 2) {
+                    Intent intent = new Intent(MainAppPage.this, PaymentPreview.class);
+                    startActivity(intent);
+                    drawer.closeDrawer();
+                }
+
+                return true;
             }
         });
 

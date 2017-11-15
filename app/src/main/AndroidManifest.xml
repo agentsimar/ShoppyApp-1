@@ -22,20 +22,20 @@
         </activity>
         <activity
             android:name=".newUser"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainAppPage"
             android:label="@string/title_activity_main_app_page"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity android:name=".ShoppingCartWindow" />
-
-        <activity android:name=".IndividualProduct"
+        <activity
+            android:name=".IndividualProduct"
             android:label="@string/title_activity_individual_product"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".CheckOutScreen"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CheckOutScreen" />
+        <activity android:name=".PaymentPreview"/>
     </application>
 
 </manifest>

@@ -52,5 +52,4 @@
         app:srcCompat="@mipmap/ic_launcher" />
 
 
-
 </android.support.design.widget.CoordinatorLayout>

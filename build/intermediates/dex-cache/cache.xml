@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\cb247afb6a5a03301d85a1e76b5c6e5c77f1f755\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="60ffc08919ae909be431f7c850ac6b322cef47ef">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp\app\build\intermediates\pre-dexed\debug\classes_612d89e1a2e1839f017824dfd05edd6bf70bdb27.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Gursimran\.android\build-cache\422e6601bbf26b36c5550ac9735bcbd9426fe8c5\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -93,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\80e035385b2d39f227dea28c002673917d67c4f1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="926bbb77be73e338d9f1a34ca58e2b8a7ef17e03">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp\app\build\intermediates\pre-dexed\debug\classes_0325527dfd10b694b1912abfe2ff7499dd1c0dba.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Gursimran\.android\build-cache\d660da21e281d5b3baacb8cffd69577b78677269\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -117,6 +135,15 @@
         revision="26.0.1"
         sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
         <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.2_f584cc652e998a435b1b0bc6c0ec2bb9b1e056eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gursimran\.android\build-cache\0b3887feb86fb60bcd0511dc4e12e44ab77a8ac8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c6c04ee3c2ffd7403b0c6ad787bbbc8ce1697a97">
+        <dex dex="C:\Users\Gursimran\Desktop\Forum\ShoppyApp\app\build\intermediates\pre-dexed\debug\classes_eb94eef234e585338dad2d32f202a9601a344007.jar" />
     </item>
     <item
         is-multidex="false"
