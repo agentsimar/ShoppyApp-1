@@ -18,6 +18,8 @@
     <string name="auth_failed">Failed. Please retry</string>
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_main_app_page">MainAppPage</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_order_confirmed">Thank You For Shopping </string>
     <string name="action_settings">Settings</string>
     <string name="logout">Sign Out</string>
     <string name="forgot_password"><u>Forgot Password?</u></string>
@@ -80,5 +82,7 @@
         <item>Uttar Pradesh</item>
         <item>West Bengal</item>
     </string-array>
+
+    <string name="DB_Feedbacks">Feedbacks</string>
 
 </resources>
