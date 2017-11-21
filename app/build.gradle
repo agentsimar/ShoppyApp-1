@@ -45,10 +45,11 @@ dependencies {
     compile 'com.firebase:firebase-client-android:2.5.2'
     compile 'com.google.android.gms:play-services-auth:10.0.1'
     testCompile 'junit:junit:4.12'
-
-    compile("com.mikepenz:materialdrawer:6.0.1@aar") {
+    compile('com.mikepenz:materialdrawer:6.0.1@aar') {
         transitive = true
     }
+    compile project(':sdkui')
+    compile 'com.payumoney.core:payumoney-sdk:7.0.1'
 }
 
 

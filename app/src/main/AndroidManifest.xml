@@ -3,6 +3,7 @@
     package="com.example.akal.shoppyapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -36,6 +37,14 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CheckOutScreen" />
         <activity android:name=".PaymentPreview"/>
+        <activity android:name=".FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".OrderConfirmed"
+            android:label="@string/title_activity_order_confirmed"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

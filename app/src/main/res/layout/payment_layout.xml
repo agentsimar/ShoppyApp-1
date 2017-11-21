@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.akal.shoppyapp.PaymentPreview">
+    android:id="@+id/individialListItemForAdapter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
 
-    <TextView
+
+    <Button
+        android:id="@+id/paymentButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text= "hello"
-        android:textSize="60dp"/>
-
+        android:layout_weight="1"
+        android:text="let's payu"
+        android:layout_gravity="center"
+        android:onClick="navigateToBaseActivity"/>
 </LinearLayout>

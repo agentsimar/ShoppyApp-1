@@ -120,7 +120,7 @@ protected void onCreate(Bundle savedInstanceState) {
                                                         "Delivery Address Added ",
                                                         Snackbar.LENGTH_SHORT).show();
 
-                                                startActivity(new Intent(getApplicationContext(), PaymentPreview.class));
+                                                startActivity(new Intent(getApplicationContext(), OrderConfirmed.class));
 
 
                                             }
